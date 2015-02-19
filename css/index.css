@@ -81,6 +81,7 @@ nav {
     outline: none;
     color: #425dec;
 }
+
 /*
   ========================================
   Content Sections
@@ -101,6 +102,10 @@ nav {
         -ms-background-size: cover;
 	     -o-background-size: cover;
 	        background-size: cover;
+}
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
 }
 /*Landing Page*/
 .landing-page-content {
@@ -126,7 +131,6 @@ nav {
 .landing-page-content p {
     text-align: center;
 }
-
 /*Landing page social badge*/
 .social-badge-img {
     width: 40px;
@@ -178,7 +182,6 @@ nav {
 
    z-index: 2;
 }
-
 /*Intro bio section*/
 .intro-bio-content-img-box {
     width:100%;
