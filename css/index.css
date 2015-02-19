@@ -1,0 +1,244 @@
+/*
+  ========================================
+  Universal Settings
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.css-container {
+    margin: 0 auto;
+    padding: 0 30px;
+    width: 960px;
+}
+#transitions {
+    -webkit-transition: all 0.2s ease-out;
+	   -moz-transition: all 0.2s ease-out;
+	    -ms-transition: all 0.2s ease-out;
+         -o-transition: all 0.2s ease-out;
+            transition: all 0.2s ease-out;
+}
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  clear: both;
+  *zoom: 1;
+}
+
+/*
+  ========================================
+  Font
+  ========================================
+*/
+
+body {
+    font-family: Dosis,sans-serif;
+    color: #000000;
+    text-align: center;
+}
+nav {
+    font-family: Arial,sans-serif;
+    font-weight: 200;
+}
+
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+
+.btn {
+    display: inline-block;
+    margin: 0;
+    border-radius: 5px;
+    background-color: #05173e;
+    color: #e9edef;
+}
+.btn:hover {
+    color: #425dec;
+}
+.btn:focus {
+    background-color: #ade3de;
+    outline: none;
+    color: #425dec;
+}
+/*
+  ========================================
+  Content Sections
+  ========================================
+*/
+
+/*Parallax*/
+.background-image{
+	width: 100%;
+	display: block;
+	position: relative;
+    overflow: hidden;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-position: center center;
+    -webkit-background-size: cover;
+	   -moz-background-size: cover;
+        -ms-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+/*Landing Page*/
+.landing-page-content {
+    position:absolute;
+    width:100%;
+    height:150px;
+    top:15%;
+}
+.landing-page-content h1 {
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: 200;
+    letter-spacing: 5px;
+    color: white;
+    text-align: center;
+}
+.landing-page-content h2 {
+    font-size: 1.25em;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.landing-page-content p {
+    text-align: center;
+}
+
+/*Landing page social badge*/
+.social-badge-img {
+    width: 40px;
+    height: 40px;
+}
+/*Landing page down arrow*/
+@-webkit-keyframes scroll-down-jump {
+	0%{ bottom: 0; }
+	50%{ bottom: 10px; }
+	100%{ bottom: 0; }
+}
+@-moz-keyframes scroll-down-jump {
+	0%{ bottom: 0; }
+	50%{ bottom: 10px; }
+	100%{ bottom: 0; }
+}
+@-ms-keyframes scroll-down-jump {
+	0%{ bottom: 0; }
+	50%{ bottom: 10px; }
+	100%{ bottom: 0; }
+}
+@-o-keyframes scroll-down-jump {
+	0%{ bottom: 0; }
+	50%{ bottom: 10px; }
+	100%{ bottom: 0; }
+}
+@keyframes scroll-down-jump {
+	0%{ bottom: 0; }
+	50%{ bottom: 10px; }
+	100%{ bottom: 0; }
+}
+.down-arrow {
+    position: absolute;
+    width: 100%;
+    height: 5%;
+    bottom: 0;
+}
+.down-arrow img{
+    position: absolute;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+
+	-webkit-animation: scroll-down-jump 2s infinite;
+       -moz-animation: scroll-down-jump 2s infinite;
+        -ms-animation: scroll-down-jump 2s infinite;
+         -o-animation: scroll-down-jump 2s infinite;
+            animation: scroll-down-jump 2s infinite;
+
+   z-index: 2;
+}
+
+/*Intro bio section*/
+.intro-bio-content-img-box {
+    width:100%;
+    text-align: center;
+    vertical-align: middle;
+}
+.intro-bio-content img {
+    width:150px;
+    height:150px;
+    border-radius:100%;
+}
+.intro-bio-content h1 {
+    font-family: Roboto,sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 400;
+    letter-spacing: 10px;
+    color: black;
+    text-align: center;
+}
+.intro-bio-content p {
+    font-family: Roboto,sans-serif;
+    font-size: 1em;
+    color: black;
+    text-align: center;
+}
+/*Projects Section*/
+.projects-content h1 {
+    font-family: Roboto,sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: black;
+    text-align: center;
+}
+.projects-content h2 {
+    font-family: Roboto,sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+}
+.projects-content p {
+    text-align: center;
+}
+.projects-content img {
+    width:250px;
+    border: black solid;
+}
+.projects-content img:hover img {
+    filter: blur(5px);
+    /*Browser Specific */
+    -webkit-filter : blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+}
+/*Photos*/
+/*Contact Me*/
+/*Parallax*/
+/**/
+

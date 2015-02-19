@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Ian Sikora</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- CSS Files -->
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+</head>
+<body>
+
+<main>
+    <!-- Navigation Bar-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <!-- Mobile nav button-->
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- Brand name-->
+                <a class="navbar-brand" href="{% url 'home' %}" title="Home">
+                    <img style="max-width:40px;" src="img/logo.png">
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav pull-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Data Projects <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Movie Recommendations</a></li>
+                            <li><a href="#">Twitter Trends</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Gaming Projects <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Blackjack</a></li>
+                            <li><a href="#">Tic-Tac-Toe</a></li>
+                            <li><a href="#">Texas Hold 'em</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Photos <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Animals</a></li>
+                            <li><a href="#">Landscapes</a></li>
+                            <li><a href="#">Portraits</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Landing Page-->
+    <section class="background-image" id="home" data-background="img/background/Background1.jpg" style="background-image: url(img/background/Background1.jpg); background-position: 50% 0px;">
+        <div class="resize-height-full-page" style="height: 400px;">
+
+            <div class="landing-page-content">
+                <h1>Ian Sikora</h1>
+                <h2>
+                    I like building things.
+                    <br>
+                    Sometimes I take pictures.
+                </h2>
+                <p class="name_links">
+                    <a href="http://www.github.com/ianjsikora"><img class="social-badge-img" src="img/icons/grey/github.png"></a>
+                    <a href="http://www.linkedin.com/in/ianjsikora"><img class="social-badge-img" src="img/icons/grey/linkedin.png"></a>
+                    <a href="http://www.twitter.com/ianjsikora"><img class="social-badge-img" src="img/icons/grey/twitter.png"></a>
+                    <a href="http://www.facebook.com/ianjsikora"><img class="social-badge-img" src="img/icons/grey/facebook.png"></a>
+                    <a href="http://www.instagram.com/ianjsikora"><img class="social-badge-img" src="img/icons/grey/instagram.png"></a>
+                    <a href="http://www.flickr.com/ianjsikora"><img class="social-badge-img" src="img/icons/grey/flickr.png"></a>
+                </p>
+            </div>
+
+            <div class="down-arrow">
+                <img src="img/down-arrow.png">
+            </div>
+
+            <!-- Scroll Down -->
+            <div class="local-scroll">
+                <a href="http://rhythm.bestlooker.pro/#about" class="scroll-down"><i class="fa fa-angle-down scroll-down-icon"></i></a>
+            </div>
+            <!-- End Scroll Down -->
+
+        </div>
+    </section>
+    <!-- About Section-->
+    <section>
+        <div class="container">
+            <div class="row intro-bio-content">
+
+                <div class="col-sm-offset-2 col-sm-2">
+                    <br>
+                    <div class="intro-bio-content-img-box">
+                        <img src="img/profile.jpg">
+                    </div>
+                    <br>
+                </div>
+
+                <div class="col-sm-offset-1 col-sm-6 intro-bio-content-about">
+                    <br>
+                    <h1>About</h1>
+                    <p>
+                        Californian born and raised, but spent my early 20's in the Philippines
+                        I'm passionate about technology and like building stuff in my free time
+                        Please click around and check out some of my projects. Would love to hear your feedback!
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="background-image" id="first-parallax" data-background="img/background/Background2.jpg" style="background-image: url(img/background/Background2.jpg); background-position: 50% 0px;">
+        <div class="resize-height-full-page" style="height: 400px;"></div>
+    </section>
+
+    <!-- Project Section-->
+    <section>
+        <div class="container">
+
+            <div class="row projects-content">
+                <div class="col-xs-12">
+                    <h1>Some Projects</h1>
+                </div>
+            </div>
+
+            <div class="row projects-content">
+
+                <div class="col-sm-4 col-md-3">
+                    <h2>Tic-Tac-Toe</h2>
+                        <p>
+                            <img class="projects-content-img" src="img/screenshots/tictactoe.png">
+                        </p>
+                </div>
+
+                <div class="col-sm-4 col-md-3">
+                    <h2>Coming Soon</h2>
+                    <p>
+                        <img class="projects-content-img" src="img/screenshots/filler.jpg">
+                    </p>
+                </div>
+
+                <div class="col-sm-4 col-md-3">
+                    <h2>Coming Soon</h2>
+                    <p>
+                        <img class="projects-content-img" src="img/screenshots/filler.jpg">
+                    </p>
+                </div>
+
+                <div class="col-sm-4 col-md-3">
+                    <h2>Coming Soon</h2>
+                    <p>
+                        <img class="projects-content-img" src="img/screenshots/filler.jpg">
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="background-image" id="second-parallax" data-background="img/background/Background4.jpg" style="background-image: url(img/background/Background4.jpg); background-position: 50% 0px;">
+        <div class="resize-height-full-page" style="height: 400px;"></div>
+    </section>
+    <!-- Email Section-->
+    <section>
+        <div class="container">
+            <div class="row projects-content">
+                <div class="col-xs-12">
+                    <h2>Have some thoughts? Get in touch</h2>
+                    <br><br><br>
+                    <form action="POST">
+                        <input type="text">
+                        <input type="submit" class="btn" value="Email Me">
+                    </form>
+                    <br><br><br>
+                    <br>
+                </div>
+            </div>
+            <div class="row projects-content">
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<!-- JQuery Links -->
+<script src="jquery/js/jquery-2.1.3.min.js"></script>
+<!-- Bootstrap Links -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<!-- Parallax Links -->
+<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
+<script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
+<script type="text/javascript" src="js/SmoothScroll.js"></script>
+<!-- Javascript -->
+<script src="js/index.js"></script>
+</body>
+</html>
